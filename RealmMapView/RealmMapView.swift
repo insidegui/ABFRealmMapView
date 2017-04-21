@@ -189,7 +189,7 @@ open class RealmMapView: MKMapView {
         super.delegate = self
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
         super.delegate = self
